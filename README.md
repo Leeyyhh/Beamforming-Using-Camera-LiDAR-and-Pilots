@@ -25,3 +25,5 @@ The LiDAR data generation files are located in the following directory:
 
 ```text
 LiDAR_generate/
+
+We also provide the train, validation, and test dataset lists in the `code_for_beamforming` directory to ensure reproducibility. These lists contain the fixed sample indices used in our experiments. When running the code, users only need to modify the dataset directory path according to their local file location. Users can also generate their own train/validation/test splits if needed, but the results reported in the paper are based on the provided fixed data split. We have also rerun the experiments with several versions to verify the consistency of the results.
