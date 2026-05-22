@@ -36,4 +36,4 @@ To ensure reproducibility, we provide the train, validation, and test dataset li
 code_for_beamforming/
 ```
 
-These lists specify the fixed sample indices used in our experiments. When running the code, users only need to modify the dataset directory path according to their local setup. Users may also generate their own train/validation/test splits if needed, but the results reported in the paper are obtained using the provided fixed split.
+These lists specify the fixed sample indices used in our experiments. When running the code, users only need to modify the dataset directory path according to their local setup. Users may also generate their own train/validation/test splits if needed.
