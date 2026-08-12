@@ -37,3 +37,8 @@ code_for_beamforming/
 ```
 
 These lists specify the fixed sample indices used in our experiments. When running the code, users only need to modify the dataset directory path according to their local setup. Users may also generate their own train/validation/test splits if needed.
+
+## Dataset: user locations are fixed while the obstacles are randomly varied
+
+The dataset used for the controlled experiment, where the user locations are fixed while the obstacles are randomly varied, is publicly available at:
+[Dataset on Zenodo](https://zenodo.org/records/21895709)
